@@ -1,0 +1,9 @@
+Criar um site que tenha um titulo no meio da tela com a cor preta e com o funda azul claro, eu quero que ele tenha um padding de 50px para todos os lados e um margim de 50px para baixo
+Abaixo do titulo uma lista aninhada com 3 receitas basicas por exemplo:
+- miojo
+    - agua
+    - miojo
+    - pozinho
+- cafe
+    - agua
+    - po

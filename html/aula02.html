@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 100px;
+            text-align: center;
+            /* margin: 100px; */
+            /* margin-top: 100px; */
+            /* margin: 100px 50px 20px 100px; */
+        }
+
+        /* Style all elements with the class name "city" */
+        .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function func() {
+            document.getElementById('demo2').innerHTML = Date()
+        } 
+    </script>
+</head>
+<body>
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">My Cities</h1>
+
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <button 
+    type="button"
+    onclick="document.getElementById('demo1').innerHTML = Date()"
+    >Click</button>
+    <button 
+    type="button"
+    onclick="func()"
+    >Click</button>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+</body>
+</html>
